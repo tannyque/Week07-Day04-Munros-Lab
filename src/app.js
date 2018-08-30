@@ -1,5 +1,6 @@
 const Munros = require('./models/munros.js');
 const MunrosListView = require('./views/munros_list_view.js');
+const MunroView = require('./views/munro_view.js');
 
 document.addEventListener('DOMContentLoaded', () => {
   const munrosListContainer = document.querySelector('#munros');
