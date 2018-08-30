@@ -18,7 +18,6 @@ MunroView.prototype.render = function () {
   this.munrosContainer.appendChild(munroContainer);
 };
 
-
 MunroView.prototype.createMunroHeading = function () {
   const name = document.createElement('h2');
   name.classList.add('munro-name');
